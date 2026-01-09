@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_section3s",
+  "info": {
+    "displayName": "section3"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "text"
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "shared.social-links",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

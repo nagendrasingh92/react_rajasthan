@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_section2s",
+  "info": {
+    "displayName": "section2"
+  },
+  "options": {},
+  "attributes": {
+    "bio": {
+      "type": "text"
+    },
+    "skills": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
