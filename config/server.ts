@@ -4,4 +4,11 @@ export default ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  webhooks: {
+    populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
+  },
+  dirs: {
+    public: 'public',
+    tmp: './tmp', // Use local tmp directory instead of system temp
+  },
 });
