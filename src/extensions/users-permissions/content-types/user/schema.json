@@ -84,6 +84,15 @@
       "relation": "oneToMany",
       "target": "api::order.order",
       "mappedBy": "user"
+    },
+    "city": {
+      "type": "text"
+    },
+    "state": {
+      "type": "text"
+    },
+    "pincode": {
+      "type": "string"
     }
   }
 }

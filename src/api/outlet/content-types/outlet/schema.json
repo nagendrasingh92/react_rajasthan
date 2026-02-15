@@ -43,6 +43,27 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "outlets"
+    },
+    "totalQuantity": {
+      "type": "integer"
+    },
+    "totalProducts": {
+      "type": "integer"
+    },
+    "totalRevenue": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
     }
   }
 }
